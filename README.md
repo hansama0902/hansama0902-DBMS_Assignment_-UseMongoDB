@@ -71,6 +71,37 @@ To install MongoDB on a Mac, follow these steps:
    mongo
    ```
    This will open the MongoDB shell if the server is running properly.
+## Installing MongoDB on Docker
+
+To install and run MongoDB using Docker, follow these steps:
+
+1. **Pull the MongoDB Docker image**:
+   ```bash
+   docker pull mongo:latest
+   ```
+
+2. **Run MongoDB in a Docker container**:
+   ```bash
+   docker run --name mongodb -d -p 27017:27017 -v mongo_data:/data/db mongo:latest
+   ```
+   - `--name mongodb`: Assigns a name to the container.
+   - `-d`: Runs the container in detached mode.
+   - `-p 27017:27017`: Maps port 27017 on your local machine to port 27017 in the container.
+   - `-v mongo_data:/data/db`: Creates a Docker volume to persist MongoDB data.
+
+3. **Verify MongoDB is running**:
+   ```bash
+   docker ps
+   ```
+   This command will show a list of running containers. You should see the MongoDB container listed.
+
+4. **Connect to MongoDB**:
+   You can connect to MongoDB using the Mongo shell:
+   ```bash
+   docker exec -it mongodb mongo
+   ```
+   This command will open the MongoDB shell inside the running container.
+![image](https://github.com/user-attachments/assets/076370a8-310a-4b50-85a2-633bd0c55120)
 
 ## Project Workflow
 
