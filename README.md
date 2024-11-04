@@ -18,7 +18,8 @@ This project is focused on querying the `ieeevis2020Tweets` database using Mongo
 
 - **Node.js** 
 - **MongoDB** 
-- **MongoDB Node.js Driver** 
+- **MongoDB Node.js Driver**
+- **Download the tweets generated during the 2020 ieeevis Conference**[https://johnguerra.co/viz/influentials/ieeevis2020/ieeevis2020Tweets.dump.bz2]
 ## Setup Instructions
 
 1. Clone the repository to your local machine:
