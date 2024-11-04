@@ -31,8 +31,11 @@ This project is focused on querying the `ieeevis2020Tweets` database using Mongo
    ```bash
    npm install
    ```
-
-3. Import the dataset into MongoDB by running the initialization script & Run all queries using the following command:
+3. Install the mongodb:
+   ```bash
+   npm install mongodb
+   ```  
+4. Import the dataset into MongoDB by running the initialization script & Run all queries using the following command:
    ```bash
    npm start
    ```
