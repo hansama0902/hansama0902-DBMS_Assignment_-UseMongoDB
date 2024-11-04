@@ -11,12 +11,6 @@ async function run() {
 
     const topUsers = await collection
       .aggregate([
-        // {
-        //   $match: {
-        //     retweeted_status: { $exists: false },
-        //     in_reply_to_status_id: null,
-        //   },
-        // },
         {
           $group: {
             _id: "$user.screen_name",
