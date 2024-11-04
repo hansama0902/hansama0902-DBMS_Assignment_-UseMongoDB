@@ -105,7 +105,10 @@ To install and run MongoDB using Docker, follow these steps:
 ## Project Workflow
 
 1. **Initialization (`init.js`)**: The dataset is imported from `ieeevis2020Tweets.dump` into MongoDB.
-2. **Queries (`Query1.js` to `Query5.js`)**: These files contain various queries that analyze the imported data.  
+2. ```bash
+   node init.js
+   ```
+3. **Queries (`Query1.js` to `Query5.js`)**: These files contain various queries that analyze the imported data.  
     You can run to Queries using the code:
    ```bash
    node Query1.js
