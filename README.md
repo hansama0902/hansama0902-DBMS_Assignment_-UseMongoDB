@@ -3,7 +3,7 @@
 This project is focused on querying the `ieeevis2020Tweets` database using MongoDB. The dataset is related to IEEE VIS 2020 tweets, and the project performs a series of queries to extract useful insights from the data.
 
 ## Project Structure
--**`Loading the data`**: Download [Download the tweets generated during the 2020 ieeevis Conference](https://johnguerra.co/viz/influentials/ieeevis2020/ieeevis2020Tweets.dump.bz2)
+- **`Loading the data`**: Download [Download the tweets generated during the 2020 ieeevis Conference](https://johnguerra.co/viz/influentials/ieeevis2020/ieeevis2020Tweets.dump.bz2)
  to an external site， And Unzip the file. You can unzip this file using KekaLinks to an external site. or 7zipLinks to an external site.. After extraction you should have a .dump  
 - **`init.js`**: This script is responsible for importing the dataset into MongoDB. It uses the following `mongoimport` command to load data from a `.dump` file into the MongoDB collection `tweet`:
   ```bash
