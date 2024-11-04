@@ -50,7 +50,7 @@ To install MongoDB on a Mac, follow these steps:
 2. **Install MongoDB** using Homebrew:
    ```bash
    brew tap mongodb/brew
-   brew install mongodb-community@6.0
+   brew install mongodb-community@8.0
    ```
 
 3. **Start MongoDB**:
